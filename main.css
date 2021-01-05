@@ -1,1 +1,57 @@
+* {
+    box-sizing: border-box;
+}
 
+
+main {
+    max-width: 1080px;
+    margin: 4rem auto;
+    margin-top: 1rem;
+}
+
+
+body {
+    margin: 0;
+
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+
+
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#forside {
+    display: block;
+
+}
+
+.section_wrapper {
+    padding-top: 15vw;
+}
+
+.forside_tekst {
+    width: 50vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link_portfolie {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link_om {
+    position: absolute;
+    top: 19.3vw;
+    right: 19vw;
+    width: 6vw;
+}
