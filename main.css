@@ -33,7 +33,7 @@ section {
 }
 
 .section_wrapper {
-    padding-top: 15vw;
+    padding-top: 5vw;
 }
 
 .forside_tekst {
@@ -51,7 +51,7 @@ section {
 
 .link_om {
     position: absolute;
-    top: 19.3vw;
+    top: 8.5vw;
     right: 19vw;
     width: 6vw;
 }
