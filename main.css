@@ -8,6 +8,7 @@
 
 main {
     width: 1920px;
+    height: auto;
     margin: 0 auto;
 
 }
@@ -26,8 +27,11 @@ img {
 }
 
 section {
-    height: 48vw;
+    height: auto;
     margin: 0 auto;
+    padding-bottom: 40px;
+
+
 }
 
 

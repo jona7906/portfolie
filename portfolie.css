@@ -59,23 +59,26 @@ main {
     width: 100%;
 }
 
-#portfolie_indledning
+
+/*#portfolie_indledning
 
 /*#portfolie_web*/
 /*#portfolie_ux*/
 /*#portfolie_animation*/
 /*#portfolie_indhold*/
 .section_wrapper {
-    top: 53.5vw;
     background-image: url(images/notesblok_01.svg);
-    width: 100%;
+    width: 90%;
     background-size: cover;
-    position: absolute;
+    position: relative;
     z-index: 100;
-    height: 700px;
     border: 10px solid #0CFB84;
-
+    left: 0;
+    right: 0;
+    height: auto;
 }
+
+
 
 .indhold_indledning_overskrift {
     background-color: #0CFB84;
@@ -86,12 +89,12 @@ main {
     border-top-left-radius: 20px;
     border-top-left-radius: -20px;
     position: absolute;
-    top: 50vw;
+    top: 41.4vw;
     z-index: 100;
     width: 20vw;
     text-align: center;
     height: 4vw;
-    left: 2vw;
+    left: 8vw;
 }
 
 /*.section_wrapper {
@@ -105,3 +108,42 @@ main {
     border: 10px solid #0CFB84;
 }
 */
+
+
+.indledning_tekst {
+    margin-top: -1vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+.indledning_portfolie_galleri {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+.indledning_portfolie_galleri img {
+    height: 30vw;
+}
+
+.portfolie_web_tekst_01 img,
+.portfolie_web_tekst_02 img,
+.portfolie_web_tekst_03 img {
+    height: 30vw;
+}
+
+.portfolie_web_billeder_03 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hide_section {
+    display: none;
+}
+
+.vis_section {
+    display: block;
+
+}
