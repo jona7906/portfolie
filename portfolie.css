@@ -1,0 +1,20 @@
+.overskrift_portfolie {
+    transform: rotate(-30deg);
+    margin-top: -60vw;
+    margin-left: -60vw;
+}
+
+.overskrift_portfolie_tekst {
+    width: 50vw;
+    position: absolute;
+    transform: rotate(-30deg);
+    top: 15vw;
+    left: 8vw;
+}
+
+#nav_portfolie {
+    position: absolute;
+    transform: rotate(-30deg);
+    top: 32vw;
+    left: 10vw;
+}

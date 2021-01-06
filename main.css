@@ -4,9 +4,9 @@
 
 
 main {
-    max-width: 1080px;
-    margin: 4rem auto;
-    margin-top: 1rem;
+
+    margin: 0 auto;
+
 }
 
 
@@ -23,35 +23,42 @@ img {
 }
 
 section {
-    max-width: 1200px;
+    height: 48vw;
     margin: 0 auto;
 }
 
+
+
 #forside {
     display: block;
+    background-color: green;
+    width: 100%;
 
 }
 
 .section_wrapper {
-    padding-top: 5vw;
+    padding-top: 7vw;
+    width: 40vw;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .forside_tekst {
-    width: 50vw;
+
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .link_portfolie {
-    width: 50vw;
+    width: 38vw;
     margin-left: auto;
     margin-right: auto;
 }
 
 .link_om {
     position: absolute;
-    top: 8.5vw;
-    right: 19vw;
-    width: 6vw;
+    width: 4vw;
+    top: 10vw;
+    right: 26vw;
 }
