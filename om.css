@@ -4,7 +4,7 @@ header {
 
 main {}
 
-.overskrift_portfolie {
+.overskrift_mig {
     transform: rotate(-30deg);
     margin-top: -60vw;
     margin-left: -60vw;
@@ -13,7 +13,7 @@ main {}
 
 }
 
-.overskrift_portfolie_tekst {
+.overskrift_mig_tekst {
     width: 50vw;
     position: absolute;
     transform: rotate(-30deg);
@@ -22,7 +22,7 @@ main {}
     z-index: 30;
 }
 
-#nav_portfolie {
+#nav_mig {
     position: absolute;
     transform: rotate(-30deg);
     top: 22vw;
@@ -33,7 +33,7 @@ main {}
 
 
 
-#nav_portfolie a {
+#nav_mig a {
     padding: 1vw;
     padding-left: 3vw;
     padding-right: 6vw;
@@ -59,7 +59,7 @@ main {
     width: 100%;
 }
 
-#portfolie_indledning
+#mig_om
 
 /*#portfolie_web*/
 /*#portfolie_ux*/
