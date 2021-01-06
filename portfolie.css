@@ -1,7 +1,14 @@
+header {
+    overflow: hidden;
+}
+
 .overskrift_portfolie {
     transform: rotate(-30deg);
     margin-top: -60vw;
     margin-left: -60vw;
+    z-index: 20;
+    overflow: hidden;
+
 }
 
 .overskrift_portfolie_tekst {
@@ -10,11 +17,71 @@
     transform: rotate(-30deg);
     top: 15vw;
     left: 8vw;
+    z-index: 30;
 }
 
 #nav_portfolie {
     position: absolute;
     transform: rotate(-30deg);
-    top: 32vw;
-    left: 10vw;
+    top: 22vw;
+    left: 3vw;
+    z-index: 10;
+
+}
+
+
+
+#nav_portfolie a {
+    padding: 1vw;
+    padding-left: 3vw;
+    padding-right: 6vw;
+    background-color: #0CFB84;
+    font-size: 2vw;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: -20px;
+    margin-left: -30px;
+    box-shadow: -4px 5px 5px 0px green;
+    color: yellow;
+}
+
+.indledning_baggrund {
+    z-index: 0;
+    top: 0vw;
+    margin-top: -48vw;
+}
+
+
+main {
+    background-color: forestgreen;
+    width: 100%;
+}
+
+#portfolie_indledning .section_wrapper {
+    top: 53.5vw;
+    background-image: url(images/notesblok_01.jpg);
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    z-index: 100;
+    height: 700px;
+    border: 10px solid #0CFB84;
+}
+
+.indhold_indledning_overskrift {
+    background-color: #0CFB84;
+    color: yellow;
+    font-size: 2vw;
+    padding-top: 12px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-left-radius: -20px;
+    position: absolute;
+    top: 50vw;
+    z-index: 100;
+    width: 20vw;
+    text-align: center;
+    height: 4vw;
+    left: 2vw;
+
 }
