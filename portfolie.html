@@ -11,6 +11,7 @@
 
 <body>
     <header>
+
         <div class="header_container_01">
             <div class="overskrift_portfolie"><img src="images/portfolie_01.svg" alt="portfolie overskrift">
 
@@ -20,7 +21,7 @@
             </div>
         </div>
 
-        <div class="indledning_baggrund"><img src="images/aarhus_fiskeholdet.jpg" alt=""></div>
+        <div id="indledning_baggrund" class="indledning_baggrund"><img id="header_baggrund" src="images/aarhus_fiskeholdet.jpg" width="100%" height="100%" alt=""></div>
 
         <nav id="nav_portfolie">
 
@@ -30,16 +31,21 @@
             <a id="nav_animation" href="#portfolie_animation">ANIMATION</a>
             <a id="nav_indhold" href="#portfolie_indhold">INDHOLD</a>
         </nav>
+
+        <div class="burger_menu">
+            <a href="index.html"> <img id="burger_img_02" src="images/home_menu.png" width="" height=""></a>
+        </div>
     </header>
 
     <main>
 
         <section id="portfolie_indledning">
-            <div class="indhold_indledning_overskrift">INDLEDNING</div>
+            <div class="indhold_overskrift">INDLEDNING</div>
             <div class="section_wrapper">
 
-                <div class="indledning_tekst">
-                    <h2>Portfolie - Indledning:</h2>
+                <div class="portfolie_tekst_indledning">
+                    <h2>Indledning</h2>
+                    <h3>Portfolie</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra sem et luctus vehicula. Mauris in molestie arcu. Cras fermentum ultricies dui a ultrices. Nam magna nulla, faucibus eget euismod in, maximus et lectus. Suspendisse eu turpis nibh. Nam tincidunt posuere mauris nec tempus. Phasellus imperdiet tempus diam a vulputate. Vestibulum a euismod ex. Fusce vitae magna enim. </p>
                 </div>
 
@@ -54,11 +60,11 @@
             </div>
         </section>
 
-        <section id="portfolie_web">
-
+        <section id="portfolie_web" class="hide_section">
+            <div class="indhold_overskrift">WEB</div>
             <div class="section_wrapper">
                 <div class="portfolie_section_01">
-                    <div class="portfolie_tekst_01">
+                    <div class="portfolie_tekst">
                         <h2>Indledning</h2>
                         <h3>Grundlæggende web</h3>
                         <p>I dette tema lærte vi de grundlæggende principper inden for opbygningen af en hjemmeside med html og css. Først blev vi introduceret for forskellige stilarter, hvorefter vi blev delt op i grupper og tildelt en af de introducerede stilarter for til sidst at udarbejde en hjemmeside enkeltvis i overenstemmelse med stilarten. </p>
@@ -67,30 +73,36 @@
                 </div>
 
                 <div class="portfolie_section_02">
-                    <h2>Research af stilarter</h2>
-                    <h3>Modern futuristic webdesign</h3>
-                    <p>
-                        Efter vi blev tildelt en stilart blev vi sat igang med at undersøge stilarten i de tildelte grupper. Min gruppe blev tildelt stilarten "modern futuristic web design - 3D and flourecent colors".
-                        Stilarten bruger forskellige virkemidler til at skabe et moderne og futuristiks udtryk, som flourecerende farver, 3D effekter og interaktive animationer.
-                    </p>
+                    <div class="portfolie_tekst">
+                        <h2>Research af stilarter</h2>
+                        <h3>Modern futuristic webdesign</h3>
+                        <p>
+                            Efter vi blev tildelt en stilart blev vi sat igang med at undersøge stilarten i de tildelte grupper. Min gruppe blev tildelt stilarten "modern futuristic web design - 3D and flourecent colors".
+                            Stilarten bruger forskellige virkemidler til at skabe et moderne og futuristiks udtryk, som flourecerende farver, 3D effekter og interaktive animationer.
+                        </p>
+                    </div>
                     <img src="images/web_klip_01.JPG" alt="">
                 </div>
 
 
                 <div class="portfolie_section_03">
-                    <h2>Idegenerering</h2>
-                    <h3>Moodboard og styletile</h3>
-                    <p>Ud fra undersøgelsen af den givne stilart kunne vi starte på idegenering.
-                        Med viden om den givne stilart og inspirationen fra idegenereringen udarbejde jeg et moodboard hvor jeg illustrere hvilke farver, fonte og ikoner jeg vil benytte mig på hjemmesiden derudover indholder moodboardet et splashbilled. Efter moodboardet udarbejdede jeg et styletile for at kunne se hvordan det vil komme til at se ud.
-                    </p>
+                    <div class="portfolie_tekst">
+                        <h2>Idegenerering</h2>
+                        <h3>Moodboard og styletile</h3>
+                        <p>Ud fra undersøgelsen af den givne stilart kunne vi starte på idegenering.
+                            Med viden om den givne stilart og inspirationen fra idegenereringen udarbejde jeg et moodboard hvor jeg illustrere hvilke farver, fonte og ikoner jeg vil benytte mig på hjemmesiden derudover indholder moodboardet et splashbilled. Efter moodboardet udarbejdede jeg et styletile for at kunne se hvordan det vil komme til at se ud.
+                        </p>
+                    </div>
                 </div>
 
 
                 <div class="portfolie_section_03">
-                    <h2>Implementering</h2>
-                    <h3>Mobile first, media querys og potionering med "grid"</h3>
-                    <p> Udarbejdelsen af moodboardet og styletile giver et bedre overblik over hjemmesiden og muligheden for at kode den mest forholdsmæssigt under implementeringen. Under implementeringen kodede jeg men indgangvinklen "mobile first" og brugte media querys til at gøre hjemmesiden responsiv til de forskellige størrelser skærme. Derudover brugte jeg grid til potionering på de større skærme.
-                    </p>
+                    <div class="portfolie_tekst">
+                        <h2>Implementering</h2>
+                        <h3>Mobile first, media querys og potionering med "grid"</h3>
+                        <p> Udarbejdelsen af moodboardet og styletile giver et bedre overblik over hjemmesiden og muligheden for at kode den mest forholdsmæssigt under implementeringen. Under implementeringen kodede jeg men indgangvinklen "mobile first" og brugte media querys til at gøre hjemmesiden responsiv til de forskellige størrelser skærme. Derudover brugte jeg grid til potionering på de større skærme.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="portfolie_web_billeder_03">
@@ -101,18 +113,67 @@
         </section>
 
         <section id="portfolie_ux" class="hide_section">
+            <div class="indhold_overskrift">UX</div>
             <div class="section_wrapper">
-                adsas
+
             </div>
+
         </section>
 
         <section id="portfolie_animation" class="hide_section">
+            <div class="indhold_overskrift" class="hide_section">ANIMATION</div>
             <div class="section_wrapper">
-                adssad
+                <div class="portfolie_section_01">
+                    <div class="portfolie_tekst">
+                        <h2>Indledning</h2>
+                        <h3>Grundlæggende web</h3>
+                        <p>I temaet grundlæggende animation fik vi til opgave at designe og udvikle et simpelt interaktivt spil. For at udvikle en idé til spillet, blev vi introduceret for forskellige idegenerings teknikker som f.eks. mindmaps. Ved idégeneringen skulle vi samtidig forholde os til hvilken stil og grundlæggende genre vi ville følge. Derudover lærte vi også de generelle regler der adskiller de gode spil fra de dårlige. </p>
+                    </div>
+                    <img src="images/web_klip_02.JPG" alt="">
+                </div>
+
+                <div class="portfolie_section_02">
+                    <div class="portfolie_tekst">
+                        <h2>Research af stilarter</h2>
+                        <h3>Modern futuristic webdesign</h3>
+                        <p>
+                            Da vi havde valgt en stil og udviklet en idé, fandt vi på et navn til spillet og skitserede en papir prototype. Derefter startede vi på en iterations process hvor vi ved hjælp af feedback på forskellige måder, forbedrede vores idé.
+                        </p>
+                    </div>
+                    <img src="images/web_klip_01.JPG" alt="">
+                </div>
+
+
+                <div class="portfolie_section_03">
+                    <div class="portfolie_tekst">
+                        <h2>Idegenerering</h2>
+                        <h3>Moodboard og styletile</h3>
+                        <p>Jeg valgte at udvikle spillet "Fish'n Beer Trip" som jeg designede i samme stil som tv-serien "South Park". Spillet gik ud på at fange så mange ædru fisk som muligt inden solen gik ned, imens man undgik at løbe tør for øl og passede på med at fange de "skæve" fisk som ellers ville drikke din øl.
+                            Ud fra dette koncept udarbejdede jeg et aktivitets diagram over spillets funktioner og en assetliste over de forskellige UI- og spilelementer.
+
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="portfolie_section_03">
+                    <div class="portfolie_tekst">
+                        <h2>Implementering</h2>
+                        <h3>Mobile first, media querys og potionering med "grid"</h3>
+                        <p> Imens vi startede på implementeringen af vores idé blev vi introduceret til forskellige metoder at kode de ønskede animationer. Vi kodede animationerne i css og tilføjede dem til de forskellige elementer via javascript. I mit spil animerede jeg øllene til at falde ned fra himlen og når de ramte vandet, illustrede et plask og et rødt "-1" ved øllen at man har mistet øl, derefter forsvandt øllene. Hvis man derimod nåede at trykke på øllen inden den ramte vandet ville et grønt "+1" og lyden af man åbner en øl illustrere at man har drukket øl. Fiskene animerede jeg til at svømme frem og tilbage og alt efter om man trykkede på en god eller dårlig fisk henholdvis et rødt eller grønt "+/-1" illustrere om man har fået drukket sin øl eller om man har fanget en ædru fisk som man kan putte i sin
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolie_web_billeder_03">
+                    <img src="images/oroe_05.jpg" alt="">
+                    <img src="images/oroe_05.jpg" alt="">
+                </div>
             </div>
         </section>
 
         <section id="portfolie_indhold" class="hide_section">
+            <div class="indhold_overskrift">INDHOLD</div>
             <div class="section_wrapper">
                 asdads
             </div>

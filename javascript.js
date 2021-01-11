@@ -1,8 +1,18 @@
+//tilføj eventlistener til burger menu
+/*document.querySelector("burger_menu").addEventListener("click", startSide)
+
+function startSide() {
+    window.
+}*/
+
 document.querySelector("#nav_indledning").addEventListener("mousedown", visIndledning);
 
 
 function visIndledning() {
     console.log("vis indledning");
+
+    //skift baggrundsbilled
+    document.getElementById("header_baggrund").src = 'images/aarhus_fiskeholdet.jpg';
 
     //skjul alle andre sektioner
     document.querySelector("#portfolie_web").classList.remove("vis_section");
@@ -29,6 +39,10 @@ document.querySelector("#nav_web").addEventListener("mousedown", visWeb);
 
 function visWeb() {
     console.log("vis web");
+    // skift tema billed
+
+
+    document.getElementById("header_baggrund").src = 'images/frontpage_web_01.JPG';
 
     //skjul alle andre sektioner
     document.querySelector("#portfolie_indledning").classList.remove("vis_section");

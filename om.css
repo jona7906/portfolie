@@ -1,51 +1,12 @@
-header {
-    overflow: hidden;
-}
-
-main {}
-
-.overskrift_mig {
-    transform: rotate(-30deg);
-    margin-top: -60vw;
-    margin-left: -60vw;
-    z-index: 20;
-    overflow: hidden;
-
-}
-
-.overskrift_mig_tekst {
-    width: 50vw;
-    position: absolute;
-    transform: rotate(-30deg);
-    top: 15vw;
-    left: 8vw;
-    z-index: 30;
-}
-
-#nav_mig {
+#nav_portfolie {
     position: absolute;
     transform: rotate(-30deg);
     top: 22vw;
-    left: 3vw;
+    left: 20vw;
     z-index: 10;
 
 }
 
-
-
-#nav_mig a {
-    padding: 1vw;
-    padding-left: 3vw;
-    padding-right: 6vw;
-    background-color: #0CFB84;
-    font-size: 2vw;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: -20px;
-    margin-left: -30px;
-    box-shadow: -4px 5px 5px 0px green;
-    color: yellow;
-}
 
 .indledning_baggrund {
     z-index: 0;
@@ -58,6 +19,8 @@ main {
     background-color: forestgreen;
     width: 100%;
 }
+
+
 
 #mig_om
 
