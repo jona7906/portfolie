@@ -127,11 +127,6 @@ main {
     height: 30vw;
 }
 
-.portfolie_web_tekst_01 img,
-.portfolie_web_tekst_02 img,
-.portfolie_web_tekst_03 img {
-    height: 30vw;
-}
 
 .portfolie_web_billeder_03 {
     display: grid;
@@ -146,4 +141,9 @@ main {
 .vis_section {
     display: block;
 
+}
+
+.portfolie_section_01 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
 }
