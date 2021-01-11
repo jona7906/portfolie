@@ -8,6 +8,19 @@ main {
     width: 73vw;
 }
 
+.indledning_baggrund img {
+    width: 100%;
+    height: 65vw;
+}
+
+#portfolie_indledning h1,
+#portfolie_indledning h2,
+#portfolie_indledning h3,
+#portfolie_indledning p {
+    margin-left: 1vw;
+}
+
+
 
 /*.section_wrapper {
 
@@ -54,15 +67,12 @@ main {
 }
 
 
-.portfolie_web_billeder_03 {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-}
+
 
 .hide_section {
     display: none;
 }
+
 
 
 
@@ -91,7 +101,78 @@ main {
     animation-fill-mode: forwards;
 }
 
-.portfolie_section_01 {
+.portfolie_section_01 {}
+
+.portfolie_section_02_img {
+    height: 30vw;
+    overflow: hidden;
+}
+
+.portfolie_section_02_img:hover {
+    height: 40vw;
+}
+
+.portfolie_section_03_img {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px
+}
+
+.portfolie_moodboard {
+    align-items: left;
+}
+
+.portfolie_styletile embed {
+    width: 100%;
+    height: 73%;
+
+}
+
+.portfolie_web_billeder_04 {
+
+
+    margin-top: 10vw;
+}
+
+.portfolie_web_billeder_04 #responsiv_mobile {
+
+    width: 20vw;
+    height: 32vw;
+
+}
+
+.responsiv_computer {}
+
+#responsiv_computer_frontpage {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#responsiv_computer_monitor {
+    position: static;
+    background-image: url(images/frontpage_web_02.JPG);
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: 55% 21%;
+
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.portfolie_web_billeder_04 {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 4fr;
+}
+
+.responsiv_mobile_screen {
+    background-image: url(images/responsiv_mobile_page_01.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: 20% 45%;
 }
