@@ -1,4 +1,4 @@
-#nav_portfolie {
+#nav_om_mig {
     position: absolute;
     transform: rotate(-30deg);
     top: 22vw;
@@ -7,6 +7,21 @@
 
 }
 
+
+
+#nav_om_mig a {
+    padding: 1vw;
+    padding-left: 3vw;
+    padding-right: 6vw;
+    background-color: #44FCA0;
+    font-size: 2vw;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: -20px;
+    margin-left: -30px;
+    box-shadow: -4px 5px 5px 0px green;
+    color: yellow;
+}
 
 .indledning_baggrund {
     z-index: 0;

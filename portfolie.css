@@ -70,37 +70,6 @@ main {
 
 
 
-.hide_section {
-    display: none;
-}
-
-
-
-
-@keyframes vis_section_kf {
-    0% {
-        margin-top: -50vw;
-        display: block;
-        z-index: 100000;
-        position: relative;
-    }
-
-    100% {
-
-        margin-top: 0;
-        display: block;
-        z-index: 100000;
-        position: relative;
-    }
-}
-
-.vis_section {
-    animation-name: vis_section_kf;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-}
 
 .portfolie_section_01 {}
 
@@ -184,6 +153,11 @@ main {
     padding: 10px;
 }
 
+.portfolie_research {
+    background-color: darkgreen;
+    padding: 10px;
+}
+
 .portfolie_styletile {
     background-color: darkgreen;
     padding: 10px;
@@ -216,4 +190,121 @@ main {
 .portfolie_animation_billeder img:nth-child(2) {
 
     transform: scaleX(-1);
+}
+
+.portfolie_animation_billeder_02 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+.portfolie_animation_billeder_02 embed {
+    width: 100%;
+    height: 24vw;
+
+}
+
+.portfolie_assetliste {
+    height: 100%;
+    background-color: darkgreen;
+    padding: 10px;
+}
+
+.portfolie_statemachinediagram {
+    background-color: darkgreen;
+    padding: 10px;
+}
+
+.skjul_billede {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.vis_billede {
+    display: block;
+    width: 100%;
+    height: 40vw;
+    position: absolute;
+    border: 10px solid darkgreen;
+}
+
+.galleri_knapper {
+    width: 200px;
+    height: 200px;
+    display: grid;
+    top: 33vw;
+    left: 60vw;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    background-image: url(images/postit_note_01.png);
+    background-size: cover;
+    position: relative;
+}
+
+#previous_button {
+    width: 50px;
+    height: 50px;
+    margin-top: 4.5vw;
+    margin-left: 3.5vw;
+}
+
+#next_button {
+    margin-top: 4.5vw;
+    width: 50px;
+    height: 50px;
+
+}
+
+.fylde_box {
+    display: block;
+    width: 100%;
+    height: 30vw;
+}
+
+.portfolie_indhold_billeder_01 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.burndownchart img,
+.trelloboard_indhold img {
+    width: 45vw;
+    height: 20vw;
+}
+
+.portfolie_indhold_billeder_02 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.portfolie_indhold_billeder_02 img {
+    width: 45vw;
+    height: 30vw;
+}
+
+.portfolie_indhold_billeder_03 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.portfolie_indhold_billeder_03 img {
+    width: 45vw;
+    height: 30vw;
+}
+
+
+.portfolie_research img,
+.portfolie_survey img {
+    width: 100%;
+    height: 20vw;
+}
+
+.portfolie_survey {
+    background-color: darkgreen;
+    padding: 10px;
 }

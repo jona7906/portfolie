@@ -174,3 +174,36 @@ main {}
     display: block;
     margin-top: -4vw;
 }
+
+
+.hide_section {
+    display: none;
+}
+
+
+
+
+@keyframes vis_section_kf {
+    0% {
+        margin-top: -50vw;
+        display: block;
+        z-index: 100000;
+        position: relative;
+    }
+
+    100% {
+
+        margin-top: 0;
+        display: block;
+        z-index: 100000;
+        position: relative;
+    }
+}
+
+.vis_section {
+    animation-name: vis_section_kf;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
