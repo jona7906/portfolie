@@ -1,6 +1,7 @@
 main {
     background-color: #44FCA0;
     width: 100%;
+    color: darkgreen;
 }
 
 .portfolie_tekst_indledning {
@@ -124,14 +125,13 @@ main {
 
 .portfolie_styletile embed {
     width: 100%;
-    height: 73%;
+    height: 24vw;
 
 }
 
 .portfolie_web_billeder_04 {
-
-
-    margin-top: 10vw;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
 }
 
 .portfolie_web_billeder_04 #responsiv_mobile {
@@ -175,4 +175,45 @@ main {
     background-size: 65%;
     background-repeat: no-repeat;
     background-position: 20% 45%;
+}
+
+.responsiv_mobile_screen {}
+
+.portfolie_moodboard {
+    background-color: darkgreen;
+    padding: 10px;
+}
+
+.portfolie_styletile {
+    background-color: darkgreen;
+    padding: 10px;
+
+}
+
+.paperclip_styletile_01 {
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    margin-left: -1.8vw;
+    margin-top: -0.5vw;
+    transform: rotate(-25deg);
+}
+
+.paperclip_styletile_02 {
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    margin-left: 86.5vw;
+    margin-top: -0.5vw;
+    transform: rotate(25deg);
+}
+
+.portfolie_animation_billeder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolie_animation_billeder img:nth-child(2) {
+
+    transform: scaleX(-1);
 }
