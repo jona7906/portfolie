@@ -115,7 +115,6 @@ function previousPicture() {
 
 
 
-
 document.querySelector("#indledning_galleri_web").addEventListener("mousedown", visWeb);
 
 document.querySelector("#indledning_galleri_ux").addEventListener("mousedown", visUx);
@@ -249,12 +248,15 @@ function visIndhold() {
     document.querySelector("#portfolie_indhold").classList.remove("hide_section");
 }
 
-document.querySelector("#nav_mig_om").addEventListener("mousedown", visOmmig);
+
+
+document.getElementById("tryk_mig").addEventListener("mousedown", visOmmig);
 
 
 function visOmmig() {
     console.log("vis om mig");
 
+    document.getElementById("header_baggrund").src = 'images/fiskeholdet_oroe_01.JPG';
     //skjul alle andre sektioner
     document.querySelector("#mig_cv").classList.remove("vis_section");
 
