@@ -116,6 +116,16 @@ function previousPicture() {
 
 
 
+document.querySelector("#indledning_galleri_web").addEventListener("mousedown", visWeb);
+
+document.querySelector("#indledning_galleri_ux").addEventListener("mousedown", visUx);
+
+document.querySelector("#indledning_galleri_animation").addEventListener("mousedown", visAnimation);
+
+document.querySelector("#indledning_galleri_indhold").addEventListener("mousedown", visIndhold);
+
+
+
 document.querySelector("#nav_indledning").addEventListener("mousedown", visIndledning);
 
 
