@@ -57,6 +57,7 @@ main {
 }
 
 .indledning_portfolie_galleri {
+    margin: 2vw 2vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
@@ -309,10 +310,77 @@ main {
     padding: 10px;
 }
 
-.galleri_overskrift_web {}
+.galleri_overskrift_web {
+    background-color: green;
+    background-size: cover;
+    color: yellow;
+    font-size: 2vw;
+    padding-top: 12px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    position: relative;
+    z-index: 5000;
+    width: 20vw;
+    text-align: center;
+    height: 4vw;
+    display: block;
 
-.galleri_overskrift_ux {}
+}
 
-.galleri_overskrift_animation {}
+.galleri_overskrift_ux {
+    background-color: green;
+    background-size: cover;
+    color: yellow;
+    font-size: 2vw;
+    padding-top: 12px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    position: relative;
+    z-index: 5000;
+    width: 20vw;
+    text-align: center;
+    height: 4vw;
+    display: block;
+    margin-left: 21vw;
+}
 
-.galleri_overskrift_indhold {}
+.galleri_overskrift_animation {
+    background-color: green;
+    background-size: cover;
+    color: yellow;
+    font-size: 2vw;
+    padding-top: 12px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    position: relative;
+    z-index: 5000;
+    width: 20vw;
+    text-align: center;
+    height: 4vw;
+    display: block;
+
+}
+
+.galleri_overskrift_indhold {
+    background-color: green;
+    background-size: cover;
+    color: yellow;
+    font-size: 2vw;
+    padding-top: 12px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    position: relative;
+    z-index: 5000;
+    width: 20vw;
+    text-align: center;
+    height: 4vw;
+    display: block;
+    margin-left: 21vw;
+}
+
+#indledning_galleri_animation img,
+#indledning_galleri_ux img,
+#indledning_galleri_web img,
+#indledning_galleri_indhold img {
+    border: 1vw solid darkgreen;
+}
