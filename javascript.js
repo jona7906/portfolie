@@ -249,7 +249,7 @@ function visIndhold() {
     document.querySelector("#portfolie_indhold").classList.remove("hide_section");
 }
 
-document.querySelector("#nav_om_indledning").addEventListener("mousedown", visOmmig);
+document.querySelector("#nav_mig_om").addEventListener("mousedown", visOmmig);
 
 
 function visOmmig() {

@@ -23,6 +23,18 @@
     color: yellow;
 }
 
+
+/*#nav_om_mig {
+    position: absolute;
+    transform: rotate(-30deg);
+}*/
+
+.overskrift_portfolie_tekst {
+    width: 67vw;
+    margin-left: -10vw;
+    margin-top: 1vw;
+}
+
 .indledning_baggrund {
     z-index: 0;
     top: 0vw;
@@ -37,20 +49,14 @@ main {
 
 
 
-#mig_om
+#mig_om .section_wrapper {
 
-/*#portfolie_web*/
-/*#portfolie_ux*/
-/*#portfolie_animation*/
-/*#portfolie_indhold*/
-.section_wrapper {
-    top: 53.5vw;
     background-image: url(images/notesblok_01.svg);
     width: 100%;
     background-size: cover;
     position: absolute;
     z-index: 100;
-    height: 700px;
+    height: auto;
     border: 10px solid #0CFB84;
 
 }
