@@ -146,7 +146,8 @@ function visIndledning() {
     document.querySelector("#portfolie_indhold").classList.add("hide_section");
     document.querySelector("#portfolie_animation").classList.add("hide_section");
 
-
+    document.querySelector("#mig_om").classList.remove("vis_section");
+    document.querySelector("#mig_om").classList.add("hide_section");
     //Vis indledning
     //Fjern hide
     document.querySelector("#portfolie_indledning").classList.add("vis_section");
@@ -175,6 +176,9 @@ function visWeb() {
     document.querySelector("#portfolie_ux").classList.add("hide_section");
     document.querySelector("#portfolie_indhold").classList.add("hide_section");
     document.querySelector("#portfolie_animation").classList.add("hide_section");
+
+    document.querySelector("#mig_om").classList.remove("vis_section");
+    document.querySelector("#mig_om").classList.add("hide_section");
     //Vis indledning
     //Fjern hide
     document.querySelector("#portfolie_web").classList.add("vis_section");
@@ -198,6 +202,10 @@ function visUx() {
     document.querySelector("#portfolie_web").classList.add("hide_section");
     document.querySelector("#portfolie_indhold").classList.add("hide_section");
     document.querySelector("#portfolie_animation").classList.add("hide_section");
+
+    document.querySelector("#mig_om").classList.remove("vis_section");
+    document.querySelector("#mig_om").classList.add("hide_section");
+
     //Vis indledning
     //Fjern hide
     document.querySelector("#portfolie_ux").classList.add("vis_section");
@@ -220,9 +228,14 @@ function visAnimation() {
     document.querySelector("#portfolie_indledning").classList.add("hide_section");
     document.querySelector("#portfolie_web").classList.add("hide_section");
     document.querySelector("#portfolie_indhold").classList.add("hide_section");
+
     document.querySelector("#portfolie_ux").classList.add("hide_section");
+
+    document.querySelector("#mig_om").classList.remove("vis_section");
+    document.querySelector("#mig_om").classList.add("hide_section");
     //Vis indledning
     //Fjern hide
+
     document.querySelector("#portfolie_animation").classList.add("vis_section");
     document.querySelector("#portfolie_animation").classList.remove("hide_section");
 }
@@ -237,6 +250,9 @@ function visIndhold() {
     document.getElementById("header_baggrund").src = 'images/buhls_moebelpolstring.JPG';
 
     //skjul alle andre sektioner
+
+    document.querySelector("#mig_om").classList.remove("vis_section");
+    document.querySelector("#mig_om").classList.add("hide_section");
     document.querySelector("#portfolie_indledning").classList.remove("vis_section");
     document.querySelector("#portfolie_web").classList.remove("vis_section");
     document.querySelector("#portfolie_animation").classList.remove("vis_section");
@@ -254,22 +270,32 @@ function visIndhold() {
 
 
 
-/*document.getElementById("tryk_mig").addEventListener("mousedown", visOmmig);*/
+document.querySelector("#nav_mig_om").addEventListener("mousedown", visOmmig);
 
 
 function visOmmig() {
     console.log("vis om mig");
+    document.getElementById("header_baggrund").src = 'images/buhls_moebelpolstring.JPG';
 
-    document.getElementById("header_baggrund").src = 'images/fiskeholdet_oroe_01.JPG';
     //skjul alle andre sektioner
-    document.querySelector("#mig_cv").classList.remove("vis_section");
 
-    document.querySelector("#mig_cv").classList.add("hide_section");
+    document.querySelector("#portfolie_indhold").classList.remove("vis_section");
+    document.querySelector("#portfolie_indhold").classList.add("hide_section");
+    document.querySelector("#portfolie_indledning").classList.remove("vis_section");
+    document.querySelector("#portfolie_web").classList.remove("vis_section");
+    document.querySelector("#portfolie_animation").classList.remove("vis_section");
+    document.querySelector("#portfolie_ux").classList.remove("vis_section");
 
+    document.querySelector("#portfolie_indledning").classList.add("hide_section");
+    document.querySelector("#portfolie_web").classList.add("hide_section");
+    document.querySelector("#portfolie_animation").classList.add("hide_section");
+    document.querySelector("#portfolie_ux").classList.add("hide_section");
     //Vis indledning
     //Fjern hide
     document.querySelector("#mig_om").classList.add("vis_section");
     document.querySelector("#mig_om").classList.remove("hide_section");
+
+
 }
 
 /*document.querySelector("#nav_cv").addEventListener("mousedown", visOmcv);*/
