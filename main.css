@@ -389,6 +389,10 @@ main {}
 
     }
 
+    a:link {
+        text-decoration: none;
+    }
+
 
 
     #nav_portfolie a {

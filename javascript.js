@@ -275,7 +275,7 @@ document.querySelector("#nav_mig_om").addEventListener("mousedown", visOmmig);
 
 function visOmmig() {
     console.log("vis om mig");
-    document.getElementById("header_baggrund").src = 'images/buhls_moebelpolstring.JPG';
+    document.getElementById("header_baggrund").src = 'images/fiskeholdet_oroe_01.JPG';
 
     //skjul alle andre sektioner
 
