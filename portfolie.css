@@ -493,9 +493,6 @@ main {
         grid-gap: 20px
     }
 
-    .portfolie_moodboard {
-        align-items: left;
-    }
 
     .portfolie_styletile embed {
         width: 100%;

@@ -2,7 +2,7 @@
     box-sizing: border-box;
 
     font-family: "segou ui", sans-serif;
-    font-size: bold;
+
 }
 
 
@@ -252,7 +252,7 @@ main {}
     text-align: center;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    border-top-left-radius: -20px;
+
     opacity: 70%;
     color: yellow;
 }
@@ -287,7 +287,7 @@ main {}
     padding: 1vw;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    border-top-left-radius: -20px;
+
     text-align: center;
     box-shadow: -4px 5px 5px 0px green;
     color: yellow;
@@ -404,7 +404,6 @@ main {}
         font-size: 2vw;
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 20px;
-        border-top-left-radius: -20px;
         margin-left: -30px;
         box-shadow: -4px 5px 5px 0px green;
         color: yellow;
