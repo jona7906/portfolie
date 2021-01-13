@@ -35,6 +35,7 @@ main {
 }
 */
 
+
 .section_wrapper {
     background-image: url(images/notesblok_02.jpg);
     width: 90%;
@@ -47,6 +48,7 @@ main {
     height: auto;
     background-color: green;
 }
+
 
 
 
@@ -69,6 +71,7 @@ main {
 .portfolie_section_02_img {
     height: 30vw;
     overflow: hidden;
+    border: 1vw solid darkgreen;
 }
 
 .portfolie_section_02_img:hover {
@@ -134,19 +137,24 @@ main {
 
 .portfolie_moodboard {
     background-color: darkgreen;
-    padding: 10px;
+    padding: 1vw;
     margin-bottom: 5vw;
+    color: greenyellow;
+
 }
 
 .portfolie_research {
     background-color: darkgreen;
-    padding: 10px;
+    padding: 1vw;
     margin-bottom: 5vw;
+    color: greenyellow;
+
 }
 
 .portfolie_styletile {
     background-color: darkgreen;
     padding: 10px;
+    color: greenyellow;
 
 }
 
@@ -185,21 +193,26 @@ main {
 }
 
 .portfolie_assetliste {
-    background-color: darkgreen;
+    height: 65vw;
+    background-color: white;
     padding: 10px;
+    color: greenyellow;
+    border: 1vw solid darkgreen;
+}
+
+.portfolie_statemachinediagram {
+    background-color: white;
+    padding: 10px;
+    color: greenyellow;
+    border: 1vw solid darkgreen;
+    margin-bottom: 9vw;
 
 }
 
 .portfolie_assetliste embed {
-    height: 55vw;
-
+    height: 40vw;
 }
 
-.portfolie_statemachinediagram {
-    background-color: darkgreen;
-    padding: 10px;
-    margin-bottom: 9vw;
-}
 
 .skjul_billede {
     display: none;
@@ -260,6 +273,21 @@ main {
     height: 25vw;
 }
 
+.burndownchart,
+.trelloboard_indhold,
+.funktionalitetsliste_img,
+.styletile_buhls_eksisterende,
+.five_sec_test,
+.bert_test_img,
+.styletile_redesign,
+.moodboard_redesign,
+.billed_optimering,
+.forside_redesign,
+.bert_test_sammenligning {
+    border: 1vw solid darkgreen;
+    background-color: white;
+}
+
 .portfolie_indhold_billeder_02 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -293,6 +321,7 @@ main {
 .portfolie_survey {
     background-color: darkgreen;
     padding: 10px;
+    color: greenyellow;
 }
 
 .galleri_overskrift_web {
@@ -534,9 +563,12 @@ main {
         padding: 10px;
     }
 
+
     .portfolie_styletile {
         background-color: darkgreen;
         padding: 10px;
+        height: 32vw;
+        color: greenyellow;
 
     }
 
@@ -561,6 +593,7 @@ main {
     .portfolie_animation_billeder {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+
     }
 
     .portfolie_animation_billeder img:nth-child(2) {
@@ -577,19 +610,24 @@ main {
 
     .portfolie_animation_billeder_02 embed {
         width: 100%;
-        height: 24vw;
+        height: 20vw;
 
     }
 
     .portfolie_assetliste {
-        height: 100%;
-        background-color: darkgreen;
+        height: 35vw;
+        background-color: white;
         padding: 10px;
+        color: greenyellow;
+        border: 1vw solid darkgreen;
     }
 
     .portfolie_statemachinediagram {
-        background-color: darkgreen;
+        background-color: white;
         padding: 10px;
+        color: greenyellow;
+        height: 35vw;
+        border: 1vw solid darkgreen;
     }
 
     .skjul_billede {
@@ -763,5 +801,37 @@ main {
     #indledning_galleri_web img,
     #indledning_galleri_indhold img {
         border: 1vw solid darkgreen;
+    }
+
+    #nav_indledning {
+        background-color: darkgreen;
+    }
+
+    #nav_web {
+        background-color: forestgreen;
+    }
+
+    #nav_ux {
+        background-color: lawngreen;
+    }
+
+    #nav_animation {
+        background-color: limegreen;
+    }
+
+    #nav_indhold {
+        background-color: mediumseagreen;
+    }
+
+    #nav_mig_om {
+        background-color: greenyellow;
+    }
+
+    .portfolie_moodboard {
+        background-color: darkgreen;
+        padding: 1vw;
+        margin-bottom: 5vw;
+        color: greenyellow;
+        height: 32vw;
     }
 }
