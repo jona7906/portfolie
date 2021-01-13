@@ -123,6 +123,7 @@ document.querySelector("#indledning_galleri_animation").addEventListener("moused
 
 document.querySelector("#indledning_galleri_indhold").addEventListener("mousedown", visIndhold);
 
+//burger_menu links
 
 
 document.querySelector("#nav_indledning").addEventListener("mousedown", visIndledning);
@@ -250,7 +251,7 @@ function visIndhold() {
 
 
 
-document.getElementById("tryk_mig").addEventListener("mousedown", visOmmig);
+/*document.getElementById("tryk_mig").addEventListener("mousedown", visOmmig);*/
 
 
 function visOmmig() {
@@ -268,7 +269,7 @@ function visOmmig() {
     document.querySelector("#mig_om").classList.remove("hide_section");
 }
 
-document.querySelector("#nav_cv").addEventListener("mousedown", visOmcv);
+/*document.querySelector("#nav_cv").addEventListener("mousedown", visOmcv);*/
 
 
 function visOmcv() {
@@ -283,4 +284,30 @@ function visOmcv() {
     //Fjern hide
     document.querySelector("#mig_cv").classList.add("vis_section");
     document.querySelector("#mig_cv").classList.remove("hide_section");
+}
+
+
+document.querySelector("#nav_indledning_02").addEventListener("mousedown", visIndledning);
+document.querySelector("#nav_web_02").addEventListener("mousedown", visWeb);
+document.querySelector("#nav_ux_02").addEventListener("mousedown", visUx);
+
+document.querySelector("#nav_animation_02").addEventListener("mousedown", visAnimation);
+
+
+document.querySelector("#nav_indhold_02").addEventListener("mousedown", visAnimation);
+
+document.querySelector(".menu_mobil").addEventListener("mousedown", showBurger)
+
+function showBurger() {
+
+    document.querySelector("#nav_burger_menu").style.display = "block";
+    document.querySelector(".menu_mobil").removeEventListener("mousedown", showBurger);
+    document.querySelector(".menu_mobil").addEventListener("mousedown", hideBurger);
+}
+
+function hideBurger() {
+
+    document.querySelector("#nav_burger_menu").style.display = "none";
+    document.querySelector(".menu_mobil").removeEventListener("mouseodown", hideBurger);
+    document.querySelector(".menu_mobil").addEventListener("mousedown", showBurger);
 }

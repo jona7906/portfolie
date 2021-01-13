@@ -13,7 +13,7 @@
     <header>
 
         <div class="header_container_01">
-            <div class="overskrift_portfolie"><img src="images/portfolie_01.svg" alt="portfolie overskrift">
+            <div id="overskrift_portfolie" class="overskrift_portfolie"><img src="images/portfolie_01.svg" alt="portfolie overskrift">
 
             </div>
             <div class="overskrift_portfolie_tekst">
@@ -21,7 +21,9 @@
             </div>
         </div>
 
-        <div id="indledning_baggrund" class="indledning_baggrund"><img id="header_baggrund" src="images/aarhus_fiskeholdet.jpg" width="" height="" alt=""></div>
+        <div id="indledning_baggrund" class="indledning_baggrund">
+            <img id="header_baggrund" src="images/aarhus_fiskeholdet.jpg" width="" height="" alt="">
+        </div>
 
         <nav id="nav_portfolie">
 
@@ -32,8 +34,41 @@
             <a id="nav_indhold" href="#portfolie_indhold">INDHOLD</a>
         </nav>
 
-        <div class="burger_menu">
-            <a href="index.html"> <img id="burger_img_02" src="images/home_menu.png" width="" height=""></a>
+        <div id="burger_container">
+            <div class="burger_menu">
+                <a href="index.html"> <img id="burger_img_02" src="images/home_menu.png" width="" height=""></a>
+            </div>
+        </div>
+
+        <div id="burger_container_mobil">
+            <div class="burger_menu_mobil">
+                <a href="index.html"><img id="burger_menu_mobil_img" src="images/home_menu.png" width="" height=""></a>
+            </div>
+        </div>
+
+        <div id="menu_container_mobil">
+            <div class="menu_mobil">
+                <h1>TEMAER</h1>
+            </div>
+
+            <nav id="nav_burger_menu">
+
+                <a id="nav_indledning_02" href="#portfolie_indledning">
+                    <h1>INDLEDNING</h1>
+                </a>
+                <a id="nav_web_02" href="#portfolie_web">
+                    <h1>WEB</h1>
+                </a>
+                <a id="nav_ux_02" href="#portfolie_ux">
+                    <h1>UX</h1>
+                </a>
+                <a id="nav_animation_02" href="#portfolie_animation">
+                    <h1>ANIMATION</h1>
+                </a>
+                <a id="nav_indhold_02" href="#portfolie_indhold">
+                    <h1>INDHOLD</h1>
+                </a>
+            </nav>
         </div>
     </header>
 

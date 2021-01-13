@@ -98,55 +98,43 @@ header {
 main {}
 
 .overskrift_portfolie {
-    transform: rotate(-30deg);
-    margin-top: -60vw;
-    margin-left: -60vw;
+    position: relative;
+    /* transform: rotate(-30deg);*/
+    margin-top: -20vw;
+    margin-left: -20vw;
     z-index: 20;
     overflow: hidden;
+    opacity: 50%;
+    /*  position: relative;
+    opacity: 50%;
+    height: 40vw;*/
+}
+
+#overskrift_portfolie img {
+    width: 100%;
+    height: 100vw;
 
 }
 
+
+
 .overskrift_portfolie_tekst {
-    width: 50vw;
+    width: 70vw;
     position: absolute;
-    transform: rotate(-30deg);
     top: 15vw;
-    left: 8vw;
+    left: 15vw;
+    right: 5vw;
     z-index: 30;
 }
 
-#nav_portfolie {
-    position: absolute;
-    transform: rotate(-30deg);
-    top: 22vw;
-    left: 3vw;
-    z-index: 10;
-
-}
 
 
-
-#nav_portfolie a {
-    padding: 1vw;
-    padding-left: 3vw;
-    padding-right: 6vw;
-    background-color: #44FCA0;
-    font-size: 2vw;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: -20px;
-    margin-left: -30px;
-    box-shadow: -4px 5px 5px 0px green;
-    color: yellow;
-}
 
 .indledning_baggrund {
     z-index: 0;
     top: 0vw;
-    margin-top: -48vw;
+    margin-top: -96vw;
 }
-
-
 
 /*#portfolie_indledning
 
@@ -161,18 +149,18 @@ main {}
     background-color: green;
     background-size: cover;
     color: yellow;
-    font-size: 2vw;
-    padding-top: 12px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    font-size: 2.5vw;
+    padding-top: 1.5vw;
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
     position: relative;
     z-index: 5000;
-    width: 20vw;
+    width: 30vw;
     text-align: center;
     height: 4vw;
-    margin-left: 70vw;
+    margin-left: 55vw;
     display: block;
-    margin-top: -4vw;
+    margin-top: -4.5vw;
 }
 
 
@@ -206,4 +194,224 @@ main {}
     animation-iteration-count: 1;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
+}
+
+
+#nav_portfolie {
+    display: none;
+}
+
+
+
+
+.burger_container_mobil {}
+
+.burger_menu_mobil {
+    position: absolute;
+    display: block;
+    z-index: 9999;
+    margin-top: -48vw;
+    margin-left: 3vw;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(images/postit_note_01.png);
+    background-size: cover;
+    text-align: center;
+}
+
+
+#burger_menu_mobil_img {
+    padding-top: 5vw;
+    width: 9vw;
+}
+
+
+.menu_mobil {
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    margin-top: -23vw;
+    margin-left: 15.5vw;
+    width: 68vw;
+    height: 12vw;
+    background-color: darkgreen;
+    background-size: cover;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: -20px;
+    opacity: 70%;
+    color: yellow;
+}
+
+.menu_mobil h1 {
+    margin-top: 2vw;
+}
+
+
+.burger_menu {
+    display: none;
+}
+
+
+#nav_burger_menu {
+    display: none;
+    position: absolute;
+    z-index: 900000;
+    margin-left: 15.4vw;
+    margin-right: 0;
+    margin-top: -11vw;
+
+}
+
+#nav_burger_menu a {
+    z-index: 900000;
+    position: relative;
+    width: 68vw;
+    height: 12vw;
+    display: block;
+    opacity: 90%;
+    padding: 1vw;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: -20px;
+    text-align: center;
+    box-shadow: -4px 5px 5px 0px green;
+    color: yellow;
+    font-size: 3vw;
+}
+
+#nav_indledning_02 {
+    background-color: darkgreen;
+}
+
+#nav_web_02 {
+    background-color: darkseagreen;
+}
+
+#nav_ux_02 {
+    background-color: lawngreen;
+}
+
+#nav_animation_02 {
+    background-color: limegreen;
+}
+
+#nav_indhold_02 {
+    background-color: mediumseagreen;
+}
+
+@media (min-width:900px) {
+
+    .menu_mobil {
+        display: none;
+    }
+
+    .overskrift_portfolie {
+        transform: rotate(-30deg);
+        margin-top: -60vw;
+        margin-left: -60vw;
+        z-index: 20;
+        overflow: hidden;
+        position: relative;
+        opacity: 100%;
+
+    }
+
+
+
+    .overskrift_portfolie_tekst {
+        width: 50vw;
+        position: absolute;
+        transform: rotate(-30deg);
+        top: 15vw;
+        left: 8vw;
+        z-index: 30;
+    }
+
+
+    #overskrift_portfolie img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .indledning_baggrund {
+        z-index: 0;
+        top: 0vw;
+        margin-top: -48vw;
+    }
+
+    #burger_container_mobil {
+        display: none;
+    }
+
+    .burger_menu {
+        position: absolute;
+        display: block;
+        z-index: 1000;
+        margin-top: -43vw;
+        margin-left: 2vw;
+        width: 100px;
+        height: 100px;
+        background-image: url(images/postit_note_01.png);
+        background-size: cover;
+        text-align: center;
+    }
+
+    .burger_img_01 {}
+
+    #burger_img_02 {
+        padding-top: 27px;
+        width: 45px;
+    }
+
+    #nav_portfolie {
+        display: block;
+        position: absolute;
+        transform: rotate(-30deg);
+        top: 22vw;
+        left: 3vw;
+        z-index: 10;
+
+    }
+
+
+
+    #nav_portfolie a {
+        padding: 1vw;
+        padding-left: 3vw;
+        padding-right: 6vw;
+        background-color: #44FCA0;
+        font-size: 2vw;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: -20px;
+        margin-left: -30px;
+        box-shadow: -4px 5px 5px 0px green;
+        color: yellow;
+    }
+
+    #nav_burger_menu a {
+        display: none;
+    }
+
+    .indhold_overskrift {
+        background-color: green;
+        background-size: cover;
+        color: yellow;
+        font-size: 2vw;
+        padding-top: 12px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        position: relative;
+        z-index: 5000;
+        width: 20vw;
+        text-align: center;
+        height: 4vw;
+        margin-left: 70vw;
+        display: block;
+        margin-top: -4vw;
+    }
+
+
 }
