@@ -21,6 +21,11 @@ main {
     margin-left: 1vw;
 }
 
+.portfolie_tekst {
+    margin-left: 10vw;
+    margin-right: 14vw;
+}
+
 
 
 /*.section_wrapper {
@@ -39,10 +44,11 @@ main {
 .section_wrapper {
     background-image: url(images/notesblok_02.jpg);
     width: 90%;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: 100% auto;
     position: relative;
     z-index: 100;
-    border: 10px solid green;
+    border: 10px solid darkgreen;
     left: 0;
     right: 0;
     height: auto;
@@ -313,7 +319,7 @@ main {
 }
 
 .galleri_overskrift_web {
-    background-color: green;
+    background-color: darkseagreen;
     background-size: cover;
     color: yellow;
     font-size: 3.5vw;
@@ -331,7 +337,7 @@ main {
 }
 
 .galleri_overskrift_ux {
-    background-color: green;
+    background-color: lawngreen;
     background-size: cover;
     color: yellow;
     font-size: 3.5vw;
@@ -348,7 +354,7 @@ main {
 }
 
 .galleri_overskrift_animation {
-    background-color: green;
+    background-color: limegreen;
     background-size: cover;
     color: yellow;
     font-size: 3.5vw;
@@ -366,7 +372,7 @@ main {
 }
 
 .galleri_overskrift_indhold {
-    background-color: green;
+    background-color: mediumseagreen;
     background-size: cover;
     color: yellow;
     font-size: 3.5vw;
@@ -382,11 +388,20 @@ main {
     margin-left: 50vw;
 }
 
-#indledning_galleri_animation img,
-#indledning_galleri_ux img,
-#indledning_galleri_web img,
+#indledning_galleri_animation img {
+    border: 1vw solid limegreen;
+}
+
+#indledning_galleri_ux img {
+    border: 1vw solid lawngreen;
+}
+
+#indledning_galleri_web img {
+    border: 1vw solid darkseagreen;
+}
+
 #indledning_galleri_indhold img {
-    border: 1vw solid darkgreen;
+    border: 1vw solid mediumseagreen;
 }
 
 @media (min-width:900px) {
@@ -430,10 +445,11 @@ main {
     .section_wrapper {
         background-image: url(images/notesblok_02.jpg);
         width: 90%;
-        background-size: cover;
+        background-repeat: repeat;
+        background-size: 100% auto;
         position: relative;
         z-index: 100;
-        border: 10px solid green;
+        border: 10px solid darkgreen;
         left: 0;
         right: 0;
         height: auto;
@@ -713,7 +729,7 @@ main {
     }
 
     .galleri_overskrift_web {
-        background-color: green;
+        background-color: darkgreen;
         background-size: cover;
         color: yellow;
         font-size: 2vw;
@@ -731,7 +747,7 @@ main {
     }
 
     .galleri_overskrift_ux {
-        background-color: green;
+        background-color: darkgreen;
         background-size: cover;
         color: yellow;
         font-size: 2vw;
@@ -748,7 +764,7 @@ main {
     }
 
     .galleri_overskrift_animation {
-        background-color: green;
+        background-color: darkgreen;
         background-size: cover;
         color: yellow;
         font-size: 2vw;
@@ -766,7 +782,7 @@ main {
     }
 
     .galleri_overskrift_indhold {
-        background-color: green;
+        background-color: darkgreen;
         background-size: cover;
         color: yellow;
         font-size: 2vw;
@@ -782,11 +798,20 @@ main {
         margin-left: 21vw;
     }
 
-    #indledning_galleri_animation img,
-    #indledning_galleri_ux img,
-    #indledning_galleri_web img,
+    #indledning_galleri_animation img {
+        border: 1vw solid limegreen;
+    }
+
+    #indledning_galleri_ux img {
+        border: 1vw solid lawngreen;
+    }
+
+    #indledning_galleri_web img {
+        border: 1vw solid darkseagreen;
+    }
+
     #indledning_galleri_indhold img {
-        border: 1vw solid darkgreen;
+        border: 1vw solid mediumseagreen;
     }
 
     #nav_indledning {
