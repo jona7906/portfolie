@@ -261,11 +261,7 @@ main {
     height: 30vw;
 }
 
-.portfolie_indhold_billeder_01 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2vw;
-}
+.portfolie_indhold_billeder_01 {}
 
 .burndownchart img,
 .trelloboard_indhold img {
@@ -286,25 +282,17 @@ main {
 .bert_test_sammenligning {
     border: 1vw solid darkgreen;
     background-color: white;
+    margin-bottom: 5vw;
 }
 
-.portfolie_indhold_billeder_02 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2vw;
-}
+.portfolie_indhold_billeder_02 {}
 
 .portfolie_indhold_billeder_02 img {
     width: 45vw;
     height: 30vw;
 }
 
-.portfolie_indhold_billeder_03 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2vw;
-    margin-bottom: 2vw
-}
+.portfolie_indhold_billeder_03 {}
 
 .portfolie_indhold_billeder_03 img {
     width: 45vw;
@@ -506,9 +494,10 @@ main {
     }
 
     .portfolie_web_billeder_04 #responsiv_mobile {
-
-        width: 20vw;
-        height: 32vw;
+        width: 199px;
+        height: 318px;
+        /*  width: 20vw;
+    height: 32vw;*/
 
     }
 
@@ -830,5 +819,15 @@ main {
         margin-bottom: 5vw;
         color: greenyellow;
         height: 32vw;
+    }
+
+    .responsiv_mobile_screen {
+        background-image: url(images/responsiv_mobile_page_01.png);
+        background-size: 160px;
+        background-repeat: no-repeat;
+        background-position: 19.5px 33px;
+        margin-left: 25%;
+        margin-bottom: 9vw;
+
     }
 }
