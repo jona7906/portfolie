@@ -13,6 +13,14 @@ main {
 
 }
 
+#video_forside {
+    width: 100%;
+    display: block;
+    opacity: 50%;
+}
+
+
+
 
 body {
     margin: 0;
@@ -61,22 +69,27 @@ section {
     display: block;
     background-color: green;
     width: 100%;
-
+    height: 58vw;
 }
 
 .section_wrapper {
-    padding-top: 7vw;
+
+    padding-top: 10vw;
     width: 40vw;
     margin-right: auto;
     margin-left: auto;
 }
 
-.forside_tekst {
 
+.section_wrapper_forside {
+    position: absolute;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: -48vw;
+    width: 40vw;
+    margin-left: 28vw;
 }
+
+.forside_tekst {}
 
 .link_portfolie {
     width: 38vw;
@@ -87,8 +100,8 @@ section {
 .link_om {
     position: absolute;
     width: 4vw;
-    top: 10vw;
-    right: 26vw;
+    top: 2.5vw;
+    right: -3.5vw;
 }
 
 header {

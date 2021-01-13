@@ -133,7 +133,7 @@ function visIndledning() {
     console.log("vis indledning");
 
     //skift baggrundsbilled
-    document.getElementById("header_baggrund").src = 'images/aarhus_fiskeholdet.jpg';
+    document.getElementById("header_baggrund").src = 'images/nordhavn_01.jpg';
 
     //skjul alle andre sektioner
     document.querySelector("#portfolie_web").classList.remove("vis_section");
@@ -163,7 +163,7 @@ function visWeb() {
     // skift tema billed
 
 
-    document.getElementById("header_baggrund").src = 'images/frontpage_web_01.JPG';
+    document.getElementById("header_baggrund").src = 'images/baggrunds_billed_web_01.JPG';
 
     //skjul alle andre sektioner
     document.querySelector("#portfolie_indledning").classList.remove("vis_section");
@@ -187,7 +187,7 @@ document.querySelector("#nav_ux").addEventListener("mousedown", visUx);
 
 function visUx() {
     console.log("vis ux");
-
+    document.getElementById("header_baggrund").src = 'images/skitse_ux_03.JPG';
     //skjul alle andre sektioner
     document.querySelector("#portfolie_indledning").classList.remove("vis_section");
     document.querySelector("#portfolie_web").classList.remove("vis_section");
@@ -208,6 +208,7 @@ document.querySelector("#nav_animation").addEventListener("mousedown", visAnimat
 
 
 function visAnimation() {
+    document.getElementById("header_baggrund").src = 'images/fishnbeertrip_clip.JPG';
     console.log("vis animation");
 
     //skjul alle andre sektioner
@@ -232,6 +233,8 @@ document.querySelector("#nav_indhold").addEventListener("mousedown", visIndhold)
 
 function visIndhold() {
     console.log("vis indhold");
+
+    document.getElementById("header_baggrund").src = 'images/buhls_moebelpolstring.JPG';
 
     //skjul alle andre sektioner
     document.querySelector("#portfolie_indledning").classList.remove("vis_section");
