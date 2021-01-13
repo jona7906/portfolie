@@ -57,20 +57,12 @@ main {
 }
 
 .indledning_portfolie_galleri {
-    margin: 2vw 2vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-
+    margin: 4vw 4vw;
 }
 
 .indledning_portfolie_galleri img {
-    height: 30vw;
+    height: 50vw;
 }
-
-
-
-
 
 .portfolie_section_01 {}
 
@@ -83,19 +75,12 @@ main {
     height: 40vw;
 }
 
-.portfolie_section_03_img {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px
-}
+.portfolie_section_03_img {}
 
-.portfolie_moodboard {
-    align-items: left;
-}
 
 .portfolie_styletile embed {
     width: 100%;
-    height: 24vw;
+    height: 40vw;
 
 }
 
@@ -105,9 +90,10 @@ main {
 }
 
 .portfolie_web_billeder_04 #responsiv_mobile {
-
-    width: 20vw;
-    height: 32vw;
+    width: 199px;
+    height: 318px;
+    /*  width: 20vw;
+    height: 32vw;*/
 
 }
 
@@ -132,19 +118,16 @@ main {
 }
 
 
-.portfolie_web_billeder_04 {
-    margin-left: 3vw;
-    margin-right: 3vw;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 2fr 4fr;
-}
+.portfolie_web_billeder_04 {}
 
 .responsiv_mobile_screen {
     background-image: url(images/responsiv_mobile_page_01.png);
-    background-size: 65%;
+    background-size: 160px;
     background-repeat: no-repeat;
-    background-position: 20% 45%;
+    background-position: 19.5px 33px;
+    margin-left: 25%;
+    margin-bottom: 9vw;
+
 }
 
 .responsiv_mobile_screen {}
@@ -152,11 +135,13 @@ main {
 .portfolie_moodboard {
     background-color: darkgreen;
     padding: 10px;
+    margin-bottom: 5vw;
 }
 
 .portfolie_research {
     background-color: darkgreen;
     padding: 10px;
+    margin-bottom: 5vw;
 }
 
 .portfolie_styletile {
@@ -178,26 +163,19 @@ main {
     position: absolute;
     width: 30px;
     height: 40px;
-    margin-left: 86.5vw;
+    margin-left: 80.5vw;
     margin-top: -0.5vw;
     transform: rotate(25deg);
 }
 
-.portfolie_animation_billeder {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+.portfolie_animation_billeder {}
 
 .portfolie_animation_billeder img:nth-child(2) {
 
     transform: scaleX(-1);
 }
 
-.portfolie_animation_billeder_02 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-}
+.portfolie_animation_billeder_02 {}
 
 
 .portfolie_animation_billeder_02 embed {
@@ -207,14 +185,20 @@ main {
 }
 
 .portfolie_assetliste {
-    height: 100%;
     background-color: darkgreen;
     padding: 10px;
+
+}
+
+.portfolie_assetliste embed {
+    height: 55vw;
+
 }
 
 .portfolie_statemachinediagram {
     background-color: darkgreen;
     padding: 10px;
+    margin-bottom: 9vw;
 }
 
 .skjul_billede {
@@ -232,8 +216,8 @@ main {
 }
 
 .galleri_knapper {
-    width: 200px;
-    height: 200px;
+    width: 20vw;
+    height: 20vw;
     display: grid;
     top: 33vw;
     left: 60vw;
@@ -245,16 +229,16 @@ main {
 }
 
 #previous_button {
-    width: 50px;
-    height: 50px;
-    margin-top: 4.5vw;
-    margin-left: 3.5vw;
+    width: 5vw;
+    height: 5vw;
+    margin-top: 6vw;
+    margin-left: 4vw;
 }
 
 #next_button {
-    margin-top: 4.5vw;
-    width: 50px;
-    height: 50px;
+    margin-top: 6vw;
+    width: 5vw;
+    height: 5.5vw;
 
 }
 
@@ -267,19 +251,19 @@ main {
 .portfolie_indhold_billeder_01 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 2vw;
 }
 
 .burndownchart img,
 .trelloboard_indhold img {
     width: 45vw;
-    height: 20vw;
+    height: 25vw;
 }
 
 .portfolie_indhold_billeder_02 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 2vw;
 }
 
 .portfolie_indhold_billeder_02 img {
@@ -290,7 +274,8 @@ main {
 .portfolie_indhold_billeder_03 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 2vw;
+    margin-bottom: 2vw
 }
 
 .portfolie_indhold_billeder_03 img {
@@ -302,7 +287,7 @@ main {
 .portfolie_research img,
 .portfolie_survey img {
     width: 100%;
-    height: 20vw;
+    height: 40vw;
 }
 
 .portfolie_survey {
@@ -314,16 +299,17 @@ main {
     background-color: green;
     background-size: cover;
     color: yellow;
-    font-size: 2vw;
-    padding-top: 12px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    font-size: 3.5vw;
+    padding-top: 1vw;
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
     position: relative;
     z-index: 5000;
     width: 20vw;
     text-align: center;
-    height: 4vw;
+    height: 5vw;
     display: block;
+    margin-left: 4vw;
 
 }
 
@@ -331,33 +317,34 @@ main {
     background-color: green;
     background-size: cover;
     color: yellow;
-    font-size: 2vw;
-    padding-top: 12px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    font-size: 3.5vw;
+    padding-top: 1vw;
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
     position: relative;
     z-index: 5000;
     width: 20vw;
     text-align: center;
-    height: 4vw;
+    height: 5vw;
     display: block;
-    margin-left: 21vw;
+    margin-left: 50vw;
 }
 
 .galleri_overskrift_animation {
     background-color: green;
     background-size: cover;
     color: yellow;
-    font-size: 2vw;
-    padding-top: 12px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    font-size: 3.5vw;
+    padding-top: 1vw;
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
     position: relative;
     z-index: 5000;
-    width: 20vw;
+    width: 24vw;
     text-align: center;
-    height: 4vw;
+    height: 5vw;
     display: block;
+    margin-left: 4vw;
 
 }
 
@@ -365,17 +352,17 @@ main {
     background-color: green;
     background-size: cover;
     color: yellow;
-    font-size: 2vw;
-    padding-top: 12px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    font-size: 3.5vw;
+    padding-top: 1vw;
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
     position: relative;
     z-index: 5000;
-    width: 20vw;
+    width: 22vw;
     text-align: center;
-    height: 4vw;
+    height: 5vw;
     display: block;
-    margin-left: 21vw;
+    margin-left: 50vw;
 }
 
 #indledning_galleri_animation img,
@@ -383,4 +370,398 @@ main {
 #indledning_galleri_web img,
 #indledning_galleri_indhold img {
     border: 1vw solid darkgreen;
+}
+
+@media (min-width:900px) {
+    main {
+        background-color: #44FCA0;
+        width: 100%;
+        color: darkgreen;
+    }
+
+    .portfolie_tekst_indledning {
+        padding-left: 9vw;
+        width: 73vw;
+    }
+
+    .indledning_baggrund img {
+        width: 100%;
+        height: 65vw;
+    }
+
+    #portfolie_indledning h1,
+    #portfolie_indledning h2,
+    #portfolie_indledning h3,
+    #portfolie_indledning p {
+        margin-left: 1vw;
+    }
+
+
+
+    /*.section_wrapper {
+
+    background-image: url(images/notesblok_01.svg);
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    z-index: 100;
+    height: 700px;
+    border: 10px solid #0CFB84;
+}
+*/
+
+    .section_wrapper {
+        background-image: url(images/notesblok_02.jpg);
+        width: 90%;
+        background-size: cover;
+        position: relative;
+        z-index: 100;
+        border: 10px solid green;
+        left: 0;
+        right: 0;
+        height: auto;
+        background-color: green;
+    }
+
+
+
+    .indledning_tekst {
+        margin-top: -1vw;
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+
+    .indledning_portfolie_galleri {
+        margin: 2vw 2vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+
+    }
+
+    .indledning_portfolie_galleri img {
+        height: 30vw;
+    }
+
+
+
+
+
+    .portfolie_section_01 {}
+
+    .portfolie_section_02_img {
+        height: 30vw;
+        overflow: hidden;
+    }
+
+    .portfolie_section_02_img:hover {
+        height: 40vw;
+    }
+
+    .portfolie_section_03_img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px
+    }
+
+    .portfolie_moodboard {
+        align-items: left;
+    }
+
+    .portfolie_styletile embed {
+        width: 100%;
+        height: 24vw;
+
+    }
+
+    .portfolie_web_billeder_04 {
+        margin-bottom: 5vw;
+        margin-top: 5vw;
+    }
+
+    .portfolie_web_billeder_04 #responsiv_mobile {
+
+        width: 20vw;
+        height: 32vw;
+
+    }
+
+    .responsiv_computer {}
+
+    #responsiv_computer_frontpage {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    #responsiv_computer_monitor {
+        position: static;
+        background-image: url(images/frontpage_web_02.JPG);
+        background-size: 95%;
+        background-repeat: no-repeat;
+        background-position: 55% 21%;
+
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+
+    .portfolie_web_billeder_04 {
+        margin-left: 3vw;
+        margin-right: 3vw;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 2fr 4fr;
+    }
+
+    .responsiv_mobile_screen {
+        background-image: url(images/responsiv_mobile_page_01.png);
+        background-size: 65%;
+        background-repeat: no-repeat;
+        background-position: 20% 45%;
+    }
+
+    .responsiv_mobile_screen {}
+
+    .portfolie_moodboard {
+        background-color: darkgreen;
+        padding: 10px;
+    }
+
+    .portfolie_research {
+        background-color: darkgreen;
+        padding: 10px;
+    }
+
+    .portfolie_styletile {
+        background-color: darkgreen;
+        padding: 10px;
+
+    }
+
+    .paperclip_styletile_01 {
+        position: absolute;
+        width: 30px;
+        height: 40px;
+        margin-left: -1.8vw;
+        margin-top: -0.5vw;
+        transform: rotate(-25deg);
+    }
+
+    .paperclip_styletile_02 {
+        position: absolute;
+        width: 30px;
+        height: 40px;
+        margin-left: 86.5vw;
+        margin-top: -0.5vw;
+        transform: rotate(25deg);
+    }
+
+    .portfolie_animation_billeder {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .portfolie_animation_billeder img:nth-child(2) {
+
+        transform: scaleX(-1);
+    }
+
+    .portfolie_animation_billeder_02 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+
+    .portfolie_animation_billeder_02 embed {
+        width: 100%;
+        height: 24vw;
+
+    }
+
+    .portfolie_assetliste {
+        height: 100%;
+        background-color: darkgreen;
+        padding: 10px;
+    }
+
+    .portfolie_statemachinediagram {
+        background-color: darkgreen;
+        padding: 10px;
+    }
+
+    .skjul_billede {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    .vis_billede {
+        display: block;
+        width: 100%;
+        height: 40vw;
+        position: absolute;
+        border: 10px solid darkgreen;
+    }
+
+    .galleri_knapper {
+        width: 200px;
+        height: 200px;
+        display: grid;
+        top: 33vw;
+        left: 60vw;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(images/postit_note_01.png);
+        background-size: cover;
+        position: relative;
+    }
+
+    #previous_button {
+        width: 50px;
+        height: 50px;
+        margin-top: 4.5vw;
+        margin-left: 3.5vw;
+    }
+
+    #next_button {
+        margin-top: 4.5vw;
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .fylde_box {
+        display: block;
+        width: 100%;
+        height: 30vw;
+    }
+
+    .portfolie_indhold_billeder_01 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .burndownchart img,
+    .trelloboard_indhold img {
+        width: 45vw;
+        height: 20vw;
+    }
+
+    .portfolie_indhold_billeder_02 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .portfolie_indhold_billeder_02 img {
+        width: 45vw;
+        height: 30vw;
+    }
+
+    .portfolie_indhold_billeder_03 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .portfolie_indhold_billeder_03 img {
+        width: 45vw;
+        height: 30vw;
+    }
+
+
+    .portfolie_research img,
+    .portfolie_survey img {
+        width: 100%;
+        height: 25vw;
+    }
+
+    .portfolie_survey {
+        background-color: darkgreen;
+        padding: 10px;
+        height: 86.9%;
+
+
+    }
+
+    .galleri_overskrift_web {
+        background-color: green;
+        background-size: cover;
+        color: yellow;
+        font-size: 2vw;
+        padding-top: 12px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        position: relative;
+        z-index: 5000;
+        width: 20vw;
+        text-align: center;
+        height: 4vw;
+        display: block;
+        margin-left: 1vw;
+
+    }
+
+    .galleri_overskrift_ux {
+        background-color: green;
+        background-size: cover;
+        color: yellow;
+        font-size: 2vw;
+        padding-top: 12px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        position: relative;
+        z-index: 5000;
+        width: 20vw;
+        text-align: center;
+        height: 4vw;
+        display: block;
+        margin-left: 21vw;
+    }
+
+    .galleri_overskrift_animation {
+        background-color: green;
+        background-size: cover;
+        color: yellow;
+        font-size: 2vw;
+        padding-top: 12px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        position: relative;
+        z-index: 5000;
+        width: 20vw;
+        text-align: center;
+        height: 4vw;
+        display: block;
+        margin-left: 1vw;
+
+    }
+
+    .galleri_overskrift_indhold {
+        background-color: green;
+        background-size: cover;
+        color: yellow;
+        font-size: 2vw;
+        padding-top: 12px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        position: relative;
+        z-index: 5000;
+        width: 20vw;
+        text-align: center;
+        height: 4vw;
+        display: block;
+        margin-left: 21vw;
+    }
+
+    #indledning_galleri_animation img,
+    #indledning_galleri_ux img,
+    #indledning_galleri_web img,
+    #indledning_galleri_indhold img {
+        border: 1vw solid darkgreen;
+    }
 }

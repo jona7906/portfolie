@@ -294,7 +294,7 @@ document.querySelector("#nav_ux_02").addEventListener("mousedown", visUx);
 document.querySelector("#nav_animation_02").addEventListener("mousedown", visAnimation);
 
 
-document.querySelector("#nav_indhold_02").addEventListener("mousedown", visAnimation);
+document.querySelector("#nav_indhold_02").addEventListener("mousedown", visIndhold);
 
 document.querySelector(".menu_mobil").addEventListener("mousedown", showBurger)
 
